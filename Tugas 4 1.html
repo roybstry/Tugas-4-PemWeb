@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Tugas 4</title>
+</head>
+<script src="jquery-3.6.3.min.js"></script>
+<script type="text/javascript">
+    function Sembunyi1() {
+        $("#foto1").fadeOut("slow");
+    }
+
+    function Tampil1() {
+        $("#foto1").fadeIn("slow")
+    }
+    function Sembunyi2() {
+        $("#foto2").fadeOut("slow");
+    }
+
+    function Tampil2() {
+        $("#foto2").fadeIn("slow")
+    }
+    function Sembunyi3() {
+        $("#foto3").fadeOut("slow");
+    }
+
+    function Tampil3() {
+        $("#foto3").fadeIn("slow")
+    }
+</script>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <p><button onclick="Sembunyi1()"> Sembunyikan </button>
+                <button onclick="Tampil1()"> Tampilkan </button>
+            </p>
+            <img id="foto1" src="gambar1.jpg" width="250px" height="200pxs" border="1px">
+
+            <p><button onclick="Sembunyi2()"> Sembunyikan </button>
+                <button onclick="Tampil2()"> Tampilkan </button>
+            </p>
+            <img id="foto2" src="gambar2.jpeg" width="250px" height="200px" border="1px">
+
+            <p><button onclick="Sembunyi3()"> Sembunyikan </button>
+                <button onclick="Tampil3()"> Tampilkan </button>
+            </p>
+            <img id="foto3" src="gambar3.jpg" width="250px" height="200pxs" border="1px">
+        </div>
+    </div>
+</body>
+
+</html>
